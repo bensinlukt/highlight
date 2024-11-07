@@ -467,6 +467,9 @@ video {
 .mb-4 {
     margin-bottom: 1rem;
 }
+.ml-5 {
+    margin-left: 1.25rem;
+}
 .ml-6 {
     margin-left: 1.5rem;
 }
@@ -517,6 +520,9 @@ video {
 }
 .w-5 {
     width: 1.25rem;
+}
+.w-64 {
+    width: 16rem;
 }
 .w-full {
     width: 100%;
@@ -752,12 +758,12 @@ h6 {
     line-height: 1.75rem;
 }
 .prose a {
-        -webkit-text-decoration: blue wavy underline;
-                text-decoration: blue wavy underline;
+        -webkit-text-decoration: blue underline;
+                text-decoration: blue underline;
     }
 .job-history a {
-        -webkit-text-decoration: blue wavy underline;
-                text-decoration: blue wavy underline;
+        -webkit-text-decoration: blue underline;
+                text-decoration: blue underline;
     }
 table {
     width:100%;
