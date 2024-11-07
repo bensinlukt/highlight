@@ -1,9 +1,16 @@
 title: About
 order: 1
 
+<div class="flex w-full justify-center mb-3">
+    <img
+        src="assets/images/me2.png"
+        class="inline-block rounded-full w-64 shadow-md"
+    />
+</div>
+
 ## What I Do!
 
-Most of my time is spent designing or making video games, but I also have a lot of hobbies. I make pixel art. I play drums in a band, DJ, and make music on my DS Lite. I go snowboarding, scuba diving and cycling.
+Most of my time is spent designing or making video games, but I also have lots of hobbies. I make pixel art. I play drums in a band, DJ, and make music on my DS Lite. I go snowboarding, scuba diving and cycling.
 
 I try to take care of myself and those around me by encouraging everyone to slow down and do what they love.
 

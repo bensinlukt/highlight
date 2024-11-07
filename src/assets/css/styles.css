@@ -48,12 +48,12 @@ h6 {
         @apply text-lg mb-3;
     }
     a {
-        text-decoration: blue wavy underline;
+        text-decoration: blue underline;
     }
 }
 .job-history {
     a {
-        text-decoration: blue wavy underline;
+        text-decoration: blue underline;
     }
 }
 table {

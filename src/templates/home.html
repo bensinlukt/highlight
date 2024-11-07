@@ -2,9 +2,13 @@
 
 <div class="page flex flex-wrap justify-center mt-10">
     <div class="flex w-full justify-center mb-3">
-        <img
+        <!-- <img
             src="{{ person.avatar }}"
             class="inline-block rounded-full w-32 shadow-md"
+        /> -->
+        <img
+            src="assets/images/me.png"
+            class="inline-block rounded-full w-34 shadow-md"
         />
     </div>
     <div class="w-1/2 mt-1 text-center">
@@ -29,14 +33,14 @@
 
         <h2 class="text-2xl mt-8 mb-2">Learn more:</h2> -->
 
-        <ul class="job-history col-span-5 flex flex-nowrap justify-center text-2xl">
-            <li class="ml-6">
+        <ul class="job-history col-span-5 flex flex-wrap justify-center text-2xl">
+            <li class="ml-5">
                 <a href="resume"
                     >Resume</a
                 >
             </li>
             {% for link in site.nav %}
-            <li class="ml-6">
+            <li class="ml-5">
                 <a href="{{ site.nav[link].href }}"
                     >{{ site.nav[link].anchor }}</a
                 >
