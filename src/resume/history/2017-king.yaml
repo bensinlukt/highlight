@@ -1,0 +1,21 @@
+---
+include:
+  - All
+titles:
+  default: Producer
+company: King
+location: Stockholm
+url: https://www.king.com/
+type: Full-time
+dates:
+  start: 2017-11
+  end: 2019-05
+skills:
+  base:
+    - Maya
+    - After Effects
+  default:
+    - Maya
+    - After Effects
+descriptions:
+  default: Planning, direction and supervision of animated promotional videos and marketing campaigns.

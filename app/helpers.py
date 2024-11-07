@@ -13,6 +13,7 @@ def watch_paths():
         'src/resume',
         'src/templates',
         'src/assets/css',
+        'src/assets/images',
     ]
     return paths
 

@@ -1,0 +1,21 @@
+---
+include:
+  - All
+titles:
+  default: 3D Artist
+company: King
+location: Stockholm
+url: https://www.king.com/
+type: Freelance
+dates:
+  start: 2014-09
+  end: 2015-11
+skills:
+  base:
+    - Maya
+    - After Effects
+  default:
+    - Maya
+    - After Effects
+descriptions:
+  default: Rendering and compositing of animated promotional videos and marketing campaigns.

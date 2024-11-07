@@ -1,0 +1,21 @@
+---
+include:
+  - All
+titles:
+  default: 3D & Motion Graphics Artist
+company: Self-employed
+location: Stockholm
+# url:
+type: Freelance
+dates:
+  start: 2008-11
+  end: Present
+skills:
+  base:
+    - Maya
+    - After Effects
+  default:
+    - Maya
+    - After Effects
+descriptions:
+  default: Production and supervision of animation for advertisements.

@@ -1,58 +1,65 @@
 ---
-name: Your Name
+name: Jan 'Bastian' Zakolski
 taglines:
-    default: An epic tagline that highlights what you do on the whole.
+  default: Hello! I make games, art and music.
 open:
-    available: true
-    seeking: Freelance & Contract
-    location: Remote
+  available: true
+  seeking: Freelance & Contract
+  location: Kyoto
 skills:
-    Web & Marketing:
-        - skill: Web design
-          years: 10
-        - skill: Web development
-          years: 10
-        - skill: SEO and traffic analytics
-          years: 8
-        - skill: Ads management
-          years: 5
-        - skill: Content marketing
-          years: 5
-    Multimedia:
-        - skill: Graphic design
-          years: 10
-        - skill: Photography
-          years: 12
-        - skill: Film editing
-          years: 8
-        - skill: Podcast production
-          years: 3
+  Programming:
+    - skill: Unreal Engine (Blueprints)
+      years: 8
+    - skill: Unity (C#)
+      years: 6
+  Art:
+    - skill: 3D Artist
+      years: 16
+    - skill: Motion Graphics Artist
+      years: 16
+    - skill: Pixel Artist
+      years: 2
+  Production:
+    - skill: Creative Director
+      years: 6
+    - skill: Producer
+      years: 3
+  Hobbies:
+    - skill: Music Producer
+      years: 15
+    - skill: DJ
+      years: 5
+    - skill: Drummer
+      years: 3
+    - skill: PCBs/Hardware
+      years: 1
 links:
-    Homepage:
-        url: https://highlight.dorko.dev
-        text: highlight.dorko.dev
-    LinkedIn:
-        url: https://www.linkedin.com/in/annedorko
-        text: "LinkedIn"
-        icon: '<i class="fab fa-linkedin"></i>'
+  LinkedIn:
+    url: https://www.linkedin.com/in/zakol-ski
+    text: "LinkedIn"
+    icon: '<i class="fab fa-linkedin"></i>'
+  GitHub:
+    url: https://www.github.com/bensinlukt
+    text: "GitHub"
+    icon: '<i class="fab fa-github"></i>'
 contact:
-    email: you@example.com
-    phone: +1 555 321 5432
-    timezone: CET/CEST
-    github: annedorko
+  email: hello@zakol.ski
+  phone: +81 080 8040 7916
+  timezone: Kyoto
+  github:
 education:
-    MBA:
-        school: Acme University
-        degree: Masters
-        study: Business Administration
-        graduation: 2023
-    B.S. Media Arts:
-        school: Acme College
-        degree: Bachelor of Science
-        study: Media Arts
-        graduation: 2015
-    A.A. Graphic Design:
-        school: Acme College
-        degree: Associates
-        study: Graphic Design
-        graduation: 2014
+  CG Artist:
+    school: Nackademin Vocational School
+    degree:
+    study: 3D Art Program
+    graduation: 2009
+  Squad Leader:
+    school: Swedish Air Force
+    degree: Distinguished Marks
+    study:
+    graduation: 2008
+  IT Program:
+    school: IT-Gymnasiet Upper Secondary School
+    degree:
+    study: IT/Computer Science
+    graduation: 2006

@@ -59,8 +59,7 @@
                     </h4>
                     <p class="text-sm print:text-xs">
                         {{ person.education[edu].school }}<br />
-                        {{ person.education[edu].degree }}, {{
-                        person.education[edu].study }}
+                        {{ person.education[edu].degree if person.education[edu].degree }} {{ person.education[edu].study if person.education[edu].study }}
                     </p>
                 </li>
                 {% endfor %}
@@ -123,13 +122,17 @@
                 </h3>
                 <ul class="text-sm print:text-xs print:leading-tight">
                     <li>
+                        {% if work.url %}
                         <a href="{{ work.url }}" target="_blank"
-                            >{{ work.company }}</a
+                        >{{ work.company }}</a
                         >
-                        · {{ work.type }} · {{ work.location }}
+                        {% else %}
+                        {{ work.company }}
+                        {% endif %}
+                        &centerdot; {{ work.type }} &centerdot; {{ work.location }}
                     </li>
                     <li class="text-gray-500">
-                        {{ work.start }} – {{ work.end }} ({{ work.length }})
+                        {{ work.start }} &ndash; {{ work.end }} ({{ work.length }})
                     </li>
                 </ul>
                 <p class="text-sm mt-2 print:mt-0 print:text-xs">

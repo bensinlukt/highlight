@@ -13,8 +13,8 @@
             {{ person.taglines.default }}
         </p>
     </div>
-    <div class="w-full text-center mt-8 pb-10">
-        <h2 class="text-2xl mb-4">What are you looking for?</h2>
+    <div class="w-full text-center mt-8 pb-8">
+        <!-- <h2 class="text-2xl mb-4">What are you looking for?</h2>
         <ul>
             {% for r in site.roles %} {% set role = site.roles[r] %}
             <li class="mb-3 font-bold">
@@ -27,10 +27,29 @@
             {% endfor %}
         </ul>
 
-        <h2 class="text-2xl mt-8 mb-2">Learn more:</h2>
-        <ul>
+        <h2 class="text-2xl mt-8 mb-2">Learn more:</h2> -->
+
+        <ul class="job-history col-span-5 flex flex-nowrap justify-center text-2xl">
+            <li class="ml-6">
+                <a href="resume"
+                    >Resume</a
+                >
+            </li>
+            {% for link in site.nav %}
+            <li class="ml-6">
+                <a href="{{ site.nav[link].href }}"
+                    >{{ site.nav[link].anchor }}</a
+                >
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+        <div class="w-full text-center mt-8 pb-10">
+
+        <ul class="flex flex-nowrap justify-center">
             {% for link in person.links %}
-            <li class="text-sm">
+            <li class="text-sm ml-6">
                 <a
                     href="{{ person.links[link]['url'] }}"
                     target="_blank"
@@ -45,9 +64,9 @@
             {% endfor %}
         </ul>
 
-        <p class="mt-8 text-sm text-gray-600">
+        <!-- <p class="mt-8 text-sm text-gray-600">
             Located in {{ person.contact.timezone }}
-        </p>
+        </p> -->
     </div>
 </div>
 

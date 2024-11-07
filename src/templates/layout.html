@@ -2,7 +2,7 @@
 <html lang="en" class="text-gray-900 leading-tight">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, noindex, nofollow" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link
             rel="stylesheet"
@@ -42,10 +42,15 @@
         >
             <div class="name">
                 <a href="{{ site.url }}/">
-                    <strong>{{ person.name }}</strong>
+                    <strong>Home</strong>
                 </a>
             </div>
             <ul class="col-span-5 flex flex-nowrap justify-end">
+                <li class="ml-6">
+                    <a href="resume"
+                        >Resume</a
+                    >
+                </li>
                 {% for link in site.nav %}
                 <li class="ml-6">
                     <a href="{{ site.nav[link].href }}"

@@ -1,0 +1,21 @@
+---
+include:
+  - All
+titles:
+  default: Indie Game Developer
+company: Self-employed
+location: Kyoto
+# url:
+type: Part-time
+dates:
+  start: 2016-02
+  end: Present
+skills:
+  base:
+    - Unity
+    - Unreal Engine
+  default:
+    - Unity
+    - Unreal Engine
+descriptions:
+  default: Production of multiple well-received indie game projects, both as a solo developer and as the lead of an indie team.

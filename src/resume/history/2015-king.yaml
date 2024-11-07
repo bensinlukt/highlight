@@ -1,0 +1,21 @@
+---
+include:
+  - All
+titles:
+  default: Lead 3D Artist
+company: King
+location: Stockholm
+url: https://www.king.com/
+type: Freelance
+dates:
+  start: 2015-11
+  end: 2017-11
+skills:
+  base:
+    - Maya
+    - After Effects
+  default:
+    - Maya
+    - After Effects
+descriptions:
+  default: Direction, script writing and supervision of animated promotional videos.

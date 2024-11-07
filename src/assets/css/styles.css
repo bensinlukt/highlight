@@ -47,4 +47,31 @@ h6 {
     p {
         @apply text-lg mb-3;
     }
+    a {
+        text-decoration: blue wavy underline;
+    }
+}
+.job-history {
+    a {
+        text-decoration: blue wavy underline;
+    }
+}
+table {
+    width:100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
+th, td {
+    text-align: left;
+    vertical-align: top;
+}
+ul {
+    list-style-position: inside;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: darkgray;
+    margin-top: 30px;
+    margin-bottom: 30px
 }

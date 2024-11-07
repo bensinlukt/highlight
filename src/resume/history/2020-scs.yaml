@@ -1,0 +1,25 @@
+---
+include:
+  - All
+# exclude:
+#     - Graphic Designer
+titles:
+  default: Software Engineer & Game Designer
+#   Front End Developer: Front End Developer
+#   WordPress Developer: WordPress Developer
+company: Skeleton Crew Studio
+location: Kyoto
+url: https://skeletoncrew.co.jp/
+type: Full-time
+dates:
+  start: 2020-01
+  end: Present
+skills:
+  base:
+    - Unity
+  default:
+    - Unity
+descriptions:
+  default: Ideation, design, production and supervision of mobile, VR, AR, Switch, PC and on-site installation games. Local and online multiplayer. Fair amount of direct to client work.
+#   Front End Developer: Designed and developed custom solutions for delivering a new educational program using WordPress with Divi. Worked closely with the marketing team.
+#   WordPress Developer: Designed and developed custom solutions for delivering a new educational program using WordPress, Divi, LearnDash, and WooCommerce. Worked closely with the marketing team.

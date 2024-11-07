@@ -43,6 +43,10 @@ class GenerateSite():
     def generate_assets(self):
         postcss = 'npx postcss ./src/assets/css/styles.css -o ./site/assets/css/styles.css'
         os.system(postcss)
+        # Copy in images.
+        source_images = './src/assets/images'
+        destination_images = './site/assets/images'
+        shutil.copytree(source_images, destination_images, dirs_exist_ok=True)
 
     def destroy(self):
         for root, dirs, files in os.walk('site/'):
@@ -68,6 +72,10 @@ class GenerateSite():
         source_fonts = 'src/assets/fonts'
         destination_fonts = 'site/assets/fonts'
         shutil.copytree(source_fonts, destination_fonts, dirs_exist_ok=True)
+        # Copy in images.
+        source_images = 'src/assets/images'
+        destination_images = 'site/assets/images'
+        shutil.copytree(source_images, destination_images, dirs_exist_ok=True)
     
     def generate_homepage(self):
         env = self.data['env']

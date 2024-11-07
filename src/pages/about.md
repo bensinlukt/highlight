@@ -1,14 +1,14 @@
 title: About
-order: 0
+order: 1
 
-# What I Do!
+## What I Do!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est nulla, porttitor sed tellus eget, rhoncus porta quam. Quisque erat diam, venenatis nec tortor eu, fringilla rutrum magna. Integer lorem lorem, finibus a neque quis, dignissim varius elit. Vivamus nec feugiat leo. Donec mattis semper risus in ultricies. Fusce quis sem imperdiet, sodales ipsum sed, dignissim sem. Sed facilisis libero nec felis egestas consectetur. 
+Most of my time is spent designing or making video games, but I also have a lot of hobbies. I make pixel art. I play drums in a band, DJ, and make music on my DS Lite. I go snowboarding, scuba diving and cycling.
 
-Vestibulum et nisi suscipit, iaculis nunc vitae, ullamcorper dui. Aenean non posuere nisl. Ut lacinia maximus iaculis. Mauris sollicitudin velit ac nulla suscipit tincidunt. 
+I try to take care of myself and those around me by encouraging everyone to slow down and do what they love.
 
 ## About Me
 
-Nullam pellentesque tincidunt ipsum, at commodo arcu sollicitudin ac. 
+I love working on projects more than anything. I've been creating toys, gadgets and games my entire life. I try to weave the intangible into something that puts a smile on the face of those around me.
 
-Etiam varius orci vel sapien fermentum lacinia. Etiam vitae lorem vel nibh dictum suscipit. Curabitur auctor vitae massa ultrices interdum. Maecenas at viverra metus, quis pulvinar lacus. Donec tortor ligula, tristique ut risus rutrum, laoreet tempus ante. Pellentesque porttitor nibh sed placerat sagittis. Nam urna sapien, aliquet sed ipsum at, porta vulputate libero. Nam elementum, diam vel lobortis blandit, felis tortor porta lectus, sed pharetra ligula enim nec nunc. Sed ut felis sed augue posuere ullamcorper. Vestibulum sodales mauris eu pellentesque aliquet. Integer feugiat, dui ac dignissim luctus, nisi ante mattis metus, in congue diam leo vel tortor. 
+I was fortunate to have a career in animation for an entire decade before switching to game development. When I joined this bustling industry, it felt like I had found my tribe.
