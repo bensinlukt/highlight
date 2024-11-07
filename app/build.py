@@ -47,6 +47,10 @@ class GenerateSite():
         source_images = './src/assets/images'
         destination_images = './site/assets/images'
         shutil.copytree(source_images, destination_images, dirs_exist_ok=True)
+        # Copy in Skybridge redirectors.
+        source_images = './src/skybridge'
+        destination_images = './site/skybridge'
+        shutil.copytree(source_images, destination_images, dirs_exist_ok=True)
 
     def destroy(self):
         for root, dirs, files in os.walk('site/'):
