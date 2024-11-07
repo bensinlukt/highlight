@@ -497,11 +497,11 @@ video {
 .flex {
     display: flex;
 }
+.table {
+    display: table;
+}
 .grid {
     display: grid;
-}
-.contents {
-    display: contents;
 }
 .hidden {
     display: none;
@@ -530,6 +530,12 @@ video {
 }
 .max-w-screen-lg {
     max-width: 1024px;
+}
+.flex-grow {
+    flex-grow: 1;
+}
+.transform {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -604,6 +610,9 @@ video {
 }
 .pb-3 {
     padding-bottom: 0.75rem;
+}
+.pb-8 {
+    padding-bottom: 2rem;
 }
 .pt-4 {
     padding-top: 1rem;
@@ -741,6 +750,33 @@ h6 {
     margin-bottom: 0.75rem;
     font-size: 1.125rem;
     line-height: 1.75rem;
+}
+.prose a {
+        -webkit-text-decoration: blue wavy underline;
+                text-decoration: blue wavy underline;
+    }
+.job-history a {
+        -webkit-text-decoration: blue wavy underline;
+                text-decoration: blue wavy underline;
+    }
+table {
+    width:100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
+th, td {
+    text-align: left;
+    vertical-align: top;
+}
+ul {
+    list-style-position: inside;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: darkgray;
+    margin-top: 30px;
+    margin-bottom: 30px
 }
 .hover\:text-blue-600:hover {
     --tw-text-opacity: 1;
