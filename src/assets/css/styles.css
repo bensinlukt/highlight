@@ -50,6 +50,10 @@ h6 {
     a {
         text-decoration: blue underline;
     }
+    ul {
+        list-style-position: inside;
+        list-style-type: disc;
+    }
 }
 .job-history {
     a {
@@ -65,13 +69,23 @@ th, td {
     text-align: left;
     vertical-align: top;
 }
-ul {
-    list-style-position: inside;
-}
 hr {
     border: none;
-    height: 2px;
+    height: 1px;
     background-color: darkgray;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    flex-shrink: 0;
 }

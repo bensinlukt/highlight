@@ -44,13 +44,17 @@ class GenerateSite():
         postcss = 'npx postcss ./src/assets/css/styles.css -o ./site/assets/css/styles.css'
         os.system(postcss)
         # Copy in images.
-        source_images = './src/assets/images'
-        destination_images = './site/assets/images'
-        shutil.copytree(source_images, destination_images, dirs_exist_ok=True)
+        source = './src/assets/images'
+        destination = './site/assets/images'
+        shutil.copytree(source, destination, dirs_exist_ok=True)
         # Copy in Skybridge redirectors.
-        source_images = './src/skybridge'
-        destination_images = './site/skybridge'
-        shutil.copytree(source_images, destination_images, dirs_exist_ok=True)
+        source = './src/skybridge'
+        destination = './site/skybridge'
+        shutil.copytree(source, destination, dirs_exist_ok=True)
+        # Copy in favicon.
+        source = './src/assets/favicon.ico'
+        destination = './site/favicon.ico'
+        shutil.copyfile(source, destination)
 
     def destroy(self):
         for root, dirs, files in os.walk('site/'):
