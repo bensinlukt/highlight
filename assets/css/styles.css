@@ -558,9 +558,6 @@ video {
 .flex-nowrap {
     flex-wrap: nowrap;
 }
-.items-center {
-    align-items: center;
-}
 .justify-end {
     justify-content: flex-end;
 }
