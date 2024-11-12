@@ -248,7 +248,7 @@ Aya Blaze is a racing game demo that was shown at Nordic Game Show (Sweden), Bit
 
 # Bubble Witch Saga 3 (Trailer)
 
-![alt text](assets/images/bws2.jpg)
+![alt text](assets/images/bws3.jpg)
 
 ### Animated trailer that ended up influencing the actual product.
 

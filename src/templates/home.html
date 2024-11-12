@@ -2,37 +2,19 @@
 
 <div class="page flex flex-wrap justify-center mt-10">
     <div class="flex w-full justify-center mb-3">
-        <!-- <img
-            src="{{ person.avatar }}"
-            class="inline-block rounded-full w-32 shadow-md"
-        /> -->
         <img
             src="assets/images/me.png"
             class="inline-block rounded-full w-34 shadow-md"
         />
     </div>
-    <div class="w-1/2 mt-1 text-center">
-        <h1 class="mb-0 font-bold text-6xl">{{ person.name }}</h1>
+    <div class="w-1/2 mt-4 text-center">
+        <!-- <h1 class="mb-0 font-bold text-6xl"><p>Jan '<img style="margin-right: 3px; margin-bottom: 14px; height: 1em; display: inline" src="assets/images/signature.png">' Zakolski</p></h1> -->
+        <h1 class="mb-0 font-bold text-6xl"><p>Jan 'Bastian' Zakolski</p></h1>
         <p class="mt-2 text-4xl text-gray-600 leading-tight">
             {{ person.taglines.default }}
         </p>
     </div>
     <div class="w-full text-center mt-8 pb-8">
-        <!-- <h2 class="text-2xl mb-4">What are you looking for?</h2>
-        <ul>
-            {% for r in site.roles %} {% set role = site.roles[r] %}
-            <li class="mb-3 font-bold">
-                <a
-                    href="{{ role.slug }}"
-                    class="underline transition-all text-blue-800 hover:text-blue-600 duration-500"
-                    >{{ role.role }}</a
-                >
-            </li>
-            {% endfor %}
-        </ul>
-
-        <h2 class="text-2xl mt-8 mb-2">Learn more:</h2> -->
-
         <ul class="job-history col-span-5 flex flex-wrap justify-center text-2xl">
             <li class="ml-5">
                 <a href="resume"
@@ -49,7 +31,7 @@
         </ul>
     </div>
 
-        <div class="w-full text-center mt-4 pb-10">
+        <div class="w-full text-center mt-1 pb-10">
 
         <ul class="flex flex-nowrap justify-center">
             {% for link in person.links %}
@@ -67,10 +49,6 @@
             </li>
             {% endfor %}
         </ul>
-
-        <!-- <p class="mt-8 text-sm text-gray-600">
-            Located in {{ person.contact.timezone }}
-        </p> -->
     </div>
 </div>
 
