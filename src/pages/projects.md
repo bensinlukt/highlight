@@ -213,7 +213,7 @@ This is a permanent installation in Bandai Namco's [Kabukicho Tower Entertainmen
 
 ### High speed, zero-gravity racer with responsive controls and fluid gameplay.
 
-Aya Blaze is a racing game demo that was shown at Nordic Game Show (Sweden), Bitsummit (Japan) and BIC Fest (Korea) in 2016. It features small ships going at very high speeds in a roller coaster like racing course. Articles were written in [Famitsu](https://www.famitsu.com/news/201607/12110686.html#:~:text=%E2%80%BB%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88-,AYA%20BLAZE,-%EF%BC%88BZXO%EF%BC%89) and [IGN](https://jp.ign.com/bicfest-2016/7023/news/).
+Aya Blaze is a racing game demo that was shown at Nordic Game Show (Sweden), Bitsummit (Japan) and BIC Fest (Korea) in 2016. It features small ships going at very high speeds in a roller coaster like racing course. Articles were written by [Famitsu](https://www.famitsu.com/news/201607/12110686.html#:~:text=%E2%80%BB%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88-,AYA%20BLAZE,-%EF%BC%88BZXO%EF%BC%89) and [IGN](https://jp.ign.com/bicfest-2016/7023/news/).
 
 <div class="pb-4">
 <table>
@@ -243,3 +243,48 @@ Aya Blaze is a racing game demo that was shown at Nordic Game Show (Sweden), Bit
 #### Media
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/170170111?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Aya Blaze Gameplay for Tokyo Game Show"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+---
+
+# Bubble Witch Saga 3 (Trailer)
+
+![alt text](assets/images/bws2.jpg)
+
+### Animated trailer that ended up influencing the actual product.
+
+I didn't work on the game, but during my time in animation I helped bring this trailer to life. I received only the animated characters with no color or shading, and created the final look from scratch. To achieve a stylized faux-2D look, I used techniques from game development, such as matcaps and sobol filtering.
+
+<div class="pb-4">
+<table>
+<tr>
+<th><h4>Responsibilities</h4></th>
+<th><h4>Tools</h4></th>
+</tr>
+<tr>
+<td>
+
+<ul>
+<li>3D Art Direction</li>
+<li>Look Development</li>
+<li>Shaders</li>
+<li>Compositing</li>
+<li>Rendering</li>
+</ul>
+
+</td>
+<td>
+
+<ul>
+<li>Maya</li>
+<li>After Effects</li>
+<li>Nuke</li>
+</ul>
+
+</td>
+</tr>
+</table>
+</div>
+
+#### Media
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/FWOLvZZsGgY?si=FTFvI1g_o4_xNcPj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
